@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sankul's Portfolio</title>
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <a href="#" class="text-white text-lg font-semibold">SD</a>
+        <ul class="flex space-x-4">
+          <li>
+            <a href="#about" class="text-gray-300 hover:text-white">About</a>
+          </li>
+          <li>
+            <a href="#Experience" class="text-gray-300 hover:text-white"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="text-gray-300 hover:text-white"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="text-gray-300 hover:text-white"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-900 text-white py-20 px-4">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">Hiiii!! it's Sankul Dwivedi</h1>
+        <p class="text-lg">
+          <!-- A showcase of my work in React and MERN development -->
+          I'M A PROGRAMMER WHO LOVES TO CODE AND LEARN NEW THINGS
+        </p>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-8">About Me</h2>
+        <p class="text-lg">
+          I am a passionate software engineer with a few months of experience in
+          React and MERN development, I enjoy building scalable and efficient
+          web applications, And i also worked as a Data Analyst Intern at SKF
+          for few months. I am always eager to learn new technologies and
+          features of React and MERN development. I'm a tech enthusiast and
+          passionate individual with a relentless work ethic. As an adaptive
+          leader, I thrive in dynamic environments, navigating challenges with
+          enthusiasm, My commitment to staying at the forefront of technology
+          fuels my drive for continuous improvement, I am a team player with
+          excellent.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="Experience" class="py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-8">Experience</h2>
+        <p class="text-lg"></p>
+        <h3 class="text-xl font-semibold mb-4">
+          <p>
+            OVVA Technologies - Software Engineer Intern (Dec-2023 - Present)
+          </p>
+        </h3>
+        <h3 class="text-xl font-semibold mb-4">
+          <p>SKF India - Data Analyst Intern (Jan-2024 - March-2023)</p>
+        </h3>
+        <h4 class="text-x2 font-semibold mb-2">
+          <p>Projects Under OVAA Technologies :-</p>
+        </h4>
+        <p>1. Breeders Association Website ,Front-End Using React</p>
+        <h4 class="text-x2 font-semibold mb-2">
+          <p>Projects Under SKF India :-</p>
+        </h4>
+        <p>1. Dashboard using PowerBi</p>
+        <p>2. Grafana Dashboard</p>
+        <p>3. Quality Management System Website Solution</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-100 py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-8">Projects</h2>
+        <!-- Replace the following with your own projects -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Project 1</h3>
+            <h3
+              class="bg-gray-800 py-4 text-white text-lg rounded-lg shadow-md p-5"
+              <p
+            >
+              Personal Voice Assistance Using Python
+            </h3>
+            <p>
+              Collaborated on a Python-based Personal Voice Assistant project
+              using speech recognition libraries, Google Web Speech API, CMU
+              Sphinx, and more. As a Python developer and presenter, my focus
+              included voice recognition and response functionality.
+            </p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Project 2</h3>
+            <h3
+              class="bg-gray-800 py-4 text-white text-lg rounded-lg shadow-md p-5"
+              <p
+            >
+              Sports Management Android App
+            </h3>
+            <p>
+              Created an Android Studio app enabling table tennis players to
+              check table availability, featuring CRUD operations and real-time
+              database integration through Firebase deployment.
+            </p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Project 3</h3>
+            <h3
+              class="bg-gray-800 py-4 text-white text-lg rounded-lg shadow-md p-5"
+              <
+            >
+              E-Commerce Website Using React and Node.js
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-8">Contact Me</h2>
+        <h3 class="text-xl font-semibold mb-4">
+          <p>You Can Hire My Skills From Hear</p>
+        </h3>
+
+        <form
+          action="http://localhost:3000/submit-form"
+          method="post"
+          class="max-w-md mx-auto"
+        >
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-semibold mb-2"
+              >Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-semibold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-semibold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <nav class="bg-gray-700 py-4">
+      <div class="container mx-auto flex justify-around items-center px-4">
+        <a
+          href="http://www.linkedin.com/in/sankul-dwivedi/"
+          class="text-white text-lg font-semibold"
+          >Linkdin
+        </a>
+        <a
+          href="https://www.facebook.com/sankul.dwivedi.9"
+          class="text-white text-lg font-semibold"
+          >Facebook
+        </a>
+        <a
+          href="https://x.com/SankulDwivedi?t=aYQbbKmf-_OauzZGbTLM7g&s=08"
+          class="text-white text-lg font-semibold"
+          >Twitter
+        </a>
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox"
+          class="text-white text-lg font-semibold"
+          >Mail-Id
+        </a>
+        <a
+          href="https://github.com/sankul11"
+          class="text-white text-lg font-semibold"
+          >Git-hub
+        </a>
+        <a
+          href="https://www.instagram.com/the_sankul?igsh=a3Exbm16Mm9xbDEw"
+          class="text-white text-lg font-semibold"
+          >Instagram
+        </a>
+        <ul class="flex space-x-4"></ul>
+      </div>
+    </nav>
+    <footer class="bg-gray-900 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>Thankyou For Visiting My Portfolio</p>
+        <p>&copy; Sankul Dwivedi</p>
+      </div>
+    </footer>
+
+    <!-- Include JavaScript file for form submission handling -->
+    <script src="portfolio.js"></script>
+  </body>
+</html>
